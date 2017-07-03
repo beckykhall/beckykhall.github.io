@@ -1,0 +1,29 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site for Becky Hall",
+  "main": "index.js",
+  "scripts": {
+    "test": "maketest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/beckykhall/beckykhall.github.io"
+  },
+  "keywords": [
+    "website",
+    "portfolio"
+  ],
+  "author": "Becky Hall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beckykhall/beckykhall.github.io/issues"
+  },
+  "homepage": "https://github.com/beckykhall/beckykhall.github.io",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "jshint": "^2.9.5"
+  }
+}
