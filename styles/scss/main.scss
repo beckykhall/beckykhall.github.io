@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 10%;
+}
+
+h1,h2 {
+	font-family: Garamond, sans-serif;
+	text-align: center;
+}
+
+main {
+	border-top: 1px solid purple;
+	border-bottom: 1px solid purple;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+.project-images, .project-description {
+	width: calc(49% - 2px); //accounts for 4px added by line break in markup
+	display: inline-block;
+	vertical-align: middle;
+
+	&:first-child {
+		margin-right: 2%;
+	}
+}
+.project-images ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+	li {
+		list-style: none;
+
+		&:not(:first-child){
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	img {
+		max-width: 100%;
+	}
+}
