@@ -8,6 +8,15 @@ body {
 h1,h2 {
 	font-family: Garamond, sans-serif;
 	text-align: center;
+	color: purple;
+}
+h1 {
+	font-size: 50px;
+}
+p {
+	font-family: helvetica;
+	font-size: 14px;
+	line-height: 1.75;
 }
 
 main {
@@ -17,6 +26,11 @@ main {
 
 section {
 	margin-bottom: 20px;
+}
+
+.intro {
+	padding: 0 50px;
+	font-size: 20px;
 }
 
 .project-images, .project-description {
