@@ -22,7 +22,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #7852a2; //purple
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -33,8 +33,9 @@ $background-alt: #f2f2f5;
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
+$heading: #453754;
 $text: #74808a;
+$link: #965bd8;
 
 /*
     ---------------------
@@ -79,6 +80,13 @@ body {
     &.active {
         overflow: hidden;
         z-index: -1;
+    }
+
+    a {
+    	color: $link;
+		&:hover, &:focus {
+			color: $base-color-hover;
+		}
     }
 }
 
@@ -359,7 +367,7 @@ footer {
     h1 {
         color: #fff;
         font-weight: 900;
-        font-size: 5em;
+        font-size: 4em;
         text-transform: uppercase;
         letter-spacing: 0.05em;
         line-height: 0.9em;
